@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TrackerLibrary2.Models;
+
+namespace TrackerLibrary2.DataAccess
+{
+    public interface IDataConnection
+    {
+        PrizeModel CreatePrize(PrizeModel model);
+          
+    }
+}

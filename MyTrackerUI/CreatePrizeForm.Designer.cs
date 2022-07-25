@@ -49,7 +49,7 @@
             this.headerLabel.ForeColor = System.Drawing.Color.DodgerBlue;
             this.headerLabel.Location = new System.Drawing.Point(12, 22);
             this.headerLabel.Name = "headerLabel";
-            this.headerLabel.Size = new System.Drawing.Size(231, 55);
+            this.headerLabel.Size = new System.Drawing.Size(237, 57);
             this.headerLabel.TabIndex = 12;
             this.headerLabel.Text = "Create Prize";
             // 
@@ -95,6 +95,7 @@
             this.prizeAmountValue.Name = "prizeAmountValue";
             this.prizeAmountValue.Size = new System.Drawing.Size(173, 39);
             this.prizeAmountValue.TabIndex = 31;
+            this.prizeAmountValue.Text = "0";
             // 
             // priceAmountLabel
             // 
@@ -113,6 +114,7 @@
             this.prizePercentageValue.Name = "prizePercentageValue";
             this.prizePercentageValue.Size = new System.Drawing.Size(173, 39);
             this.prizePercentageValue.TabIndex = 33;
+            this.prizePercentageValue.Text = "0";
             // 
             // prizePercentageLabel
             // 
@@ -150,6 +152,7 @@
             this.createPrizeButton.TabIndex = 35;
             this.createPrizeButton.Text = "Create Prize";
             this.createPrizeButton.UseVisualStyleBackColor = true;
+            this.createPrizeButton.Click += new System.EventHandler(this.createPrizeButton_Click);
             // 
             // CreatePrizeForm
             // 
